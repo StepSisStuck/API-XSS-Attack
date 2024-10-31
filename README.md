@@ -82,7 +82,11 @@ Change your workspace name to your own workspace name in the apiUrl variable.
 
 ## XSS Demo Video
 <details><summary>View Demo Video</summary>
-<video src="https://raw.githubusercontent.com/StepSisStuck/API-XSS-Attack/refs/heads/main/XSSDemo.mp4" title="Demonstration video of the software."></video> <!-- Licence for Example_2.webm: MPL-2.0+ OR CC-BY-SA-4.0+ --></details>
+
+
+https://github.com/user-attachments/assets/289917ae-d0b3-43f3-8b9d-1af6f298c824
+
+</details>
 
 
 ## Contribution Guidelines
