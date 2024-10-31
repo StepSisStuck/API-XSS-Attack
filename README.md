@@ -8,8 +8,9 @@ This project demonstrates a Cross-Site Scripting (XSS) attack using a simple log
 1. [Installation](#installation)
 2. [How to run the code](#how-to-run-the-code)
 3. [Client Side Code](#client-side-code)
-4. [Contribution Guidelines](#contribution-guidelines)
-5. [License Information](#license-information)
+4. [XSS Demo Video](#xss-demo-video)
+5. [Contribution Guidelines](#contribution-guidelines)
+6. [License Information](#license-information)
 
 ## Installation
 
@@ -78,6 +79,11 @@ const apiUrl = 'https://unearthly-hex-679pp459qqgh574r-8001.app.github.dev/colle
 ```
 
 Change your workspace name to your own workspace name in the apiUrl variable.
+
+## XSS Demo Video
+<details><summary>View Demo Video</summary>
+<video src="https://raw.githubusercontent.com/StepSisStuck/API-XSS-Attack/refs/heads/main/XSSDemo.mp4" title="Demonstration video of the software."></video> <!-- Licence for Example_2.webm: MPL-2.0+ OR CC-BY-SA-4.0+ --></details>
+
 
 ## Contribution Guidelines
 
