@@ -1,9 +1,13 @@
 const express = require('express');
+const cors = require('cors'); // Import cors
 const fs = require('fs');
 
 const app = express();
 const PORT = 8001;
 const usersFile = 'users.json';
+
+// Enable CORS
+app.use(cors());
 
 // Middleware to parse JSON bodies
 app.use(express.json());
