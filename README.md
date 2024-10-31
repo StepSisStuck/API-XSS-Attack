@@ -1,15 +1,35 @@
-# XSS 
+# XSS Attack Project
 
-# Table of Contents
+## Project Description
+This project demonstrates a Cross-Site Scripting (XSS) attack using a simple login form. The server collects login data and saves it to a JSON file.
 
+## Table of Contents
 
+1. [Installation](#installation)
+2. [How to run the code](#how-to-run-the-code)
+3. [Client Side Code](#client-side-code)
+4. [Contribution Guidelines](#contribution-guidelines)
+5. [License Information](#license-information)
 
-How to run the code
-```bash
-node server.js
-```
+## Installation
 
-Client Side Code
+* Ensure you have Node.js installed on your machine. You can download it from [Node.js](https://nodejs.org/).
+* Clone the repository to your local machine.
+* Navigate to the project directory.
+* Install the dependencies by running the following command:
+  ```bash
+  npm install
+  ```
+
+## How to run the code
+
+* Start the server by running the following command:
+  ```bash
+  node server.js
+  ```
+
+## Client Side Code
+
 ```html
 <form id="loginForm">
 <label for="username">Username:</label>
@@ -59,3 +79,14 @@ const apiUrl = 'https://unearthly-hex-679pp459qqgh574r-8001.app.github.dev/colle
 
 Change your workspace name to your own workspace name in the apiUrl variable.
 
+## Contribution Guidelines
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes with a descriptive message.
+4. Push your changes to your forked repository.
+5. Create a pull request to the main repository.
+
+## License Information
+
+This project is licensed under the ISC License.
