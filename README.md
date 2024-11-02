@@ -108,7 +108,7 @@ https://github.com/user-attachments/assets/289917ae-d0b3-43f3-8b9d-1af6f298c824
 
 ## License Information
 
-This project is licensed under the ISC License.
+This project is licensed under the Apache License, Version 2.0.
 
 ## Additional Resources
 
