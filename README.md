@@ -37,54 +37,7 @@ This project demonstrates a Cross-Site Scripting (XSS) attack using a simple log
 
 ## Client Side Code
 
-```html
-<form id="loginForm">
-<label for="username">Username:</label>
-<input type="text" id="username" name="username" required><br><br>
- 
-<label for="password">Password:</label>
-<input type="password" id="password" name="password" required><br><br>
- 
-<button type="button" id="loginButton">Login</button>
-</form>
- 
-<script>
-const apiUrl = 'https://unearthly-hex-679pp459qqgh574r-8001.app.github.dev/collect';
-
-        function sendLoginToAPI(event) {
-            event.preventDefault();
-
-            alert("Login button clicked!");
-
-            const username = $('#username').val();
-            const password = $('#password').val();
-
-            if (!username || !password) {
-                alert("Both username and password are required.");
-                return;
-            }
-
-            $.ajax({
-                url: apiUrl,
-                method: 'POST',
-                contentType: 'application/json',
-                data: JSON.stringify({ username: username, password: password }),
-                success: function(data) {
-                    console.log('Login response:', data);
-                    alert('Login successful!');
-                },
-                error: function(xhr, status, error) {
-                    console.error('Login failed:', error);
-                    alert('Invalid username or password.');
-                }
-            });
-        }
-
-        $('#loginButton').on('mousedown', sendLoginToAPI);
-</script>
-```
-
-Change your workspace name to your own workspace name in the apiUrl variable.
+The client-side code has been moved to a separate file for better organization. You can find the client-side code in the `client/login.html` file.
 
 ### Explanation
 The client-side code handles the user input from the login form. When the login button is clicked, the `sendLoginToAPI` function is triggered. This function collects the username and password entered by the user and sends them to the server using an AJAX POST request. The server then processes this data and saves it to a JSON file. The XSS vulnerability could be exploited if an attacker injects malicious scripts into the username or password fields, which would then be executed when the data is processed or displayed.
