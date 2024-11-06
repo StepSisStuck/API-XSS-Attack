@@ -115,3 +115,50 @@ This project is licensed under the Apache License, Version 2.0.
 * [OWASP XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 * [OWASP Cross-Site Scripting (XSS)](https://owasp.org/www-community/attacks/xss/)
 * [MDN Web Docs: Cross-Site Scripting (XSS)](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting)
+
+## Detailed Project Description
+
+### Purpose of Each File
+
+- `client_code.html`: Contains the client-side code for the login form and the script to send login data to the server.
+- `server.js`: The server-side code that handles incoming login data and saves it to a JSON file.
+- `users.json`: The JSON file where login data is stored.
+- `package.json`: Contains metadata about the project and its dependencies.
+- `LICENSE`: The license file for the project.
+
+### How They Interact
+
+1. The user interacts with the login form in `client_code.html`.
+2. When the login button is clicked, the client-side script sends the login data to the server.
+3. The server, implemented in `server.js`, receives the data and saves it to `users.json`.
+4. The `package.json` file ensures that all necessary dependencies are installed for the project to run.
+
+## How to Run the Project on GitHub Codespace
+
+1. Open the repository on GitHub.
+2. Click on the "Code" button and select "Open with Codespaces".
+3. If you don't have a Codespace created, click on "New Codespace".
+4. Once the Codespace is ready, open a terminal.
+5. Navigate to the project directory.
+6. Install the dependencies by running the following command:
+   ```bash
+   npm install
+   ```
+7. Start the server by running the following command:
+   ```bash
+   node server.js
+   ```
+
+## How to Change the Workspace Name in `client_code.html`
+
+1. Open the `client_code.html` file.
+2. Locate the following line in the script section:
+   ```javascript
+   const apiUrl = 'https://unearthly-hex-679pp459qqgh574r-8001.app.github.dev/collect';
+   ```
+3. Replace `'https://unearthly-hex-679pp459qqgh574r-8001.app.github.dev/collect'` with your own workspace URL.
+
+## Author Information
+
+- **Author**: StepSisStuck
+- **Version**: 1.0.0
