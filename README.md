@@ -134,6 +134,7 @@ For more information about the British Airways data breach, you can refer to the
 - [British Airways data breach: What happened and what to do](https://www.itpro.co.uk/security/32117/british-airways-data-breach-what-happened-and-what-to-do)
 
 These articles provide comprehensive insights into the breach, its impact, and the subsequent actions taken. 
+
 ## Contribution Guidelines
 
 1. Fork the repository.
